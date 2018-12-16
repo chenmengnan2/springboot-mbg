@@ -17,8 +17,6 @@ public class SpringbootMbgApplicationTests {
     public void contextLoads() {
         Emp emp = mapper.selectByPrimaryKey(1);
         System.out.println(emp);
-        System.out.println("11");
-
     }
 
 }
